@@ -1,0 +1,16 @@
+.git
+.gitignore
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.vscode/
+.idea/
+artifacts_quick/
+data/sklearn_cache/
+k8s/
+Dockerfile
+docker-compose.yml
+.dockerignore
