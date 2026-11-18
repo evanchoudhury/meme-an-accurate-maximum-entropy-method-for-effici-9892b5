@@ -180,3 +180,7 @@ Entropy Method for Efficient Approximations in Large-Scale Machine Learning," *E
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Container check
+
+The Docker image was built and `selfcheck.py` passed inside the container (checked by the agent on 2026-11-19). The Kubernetes manifests were generated but not run on a cluster.
