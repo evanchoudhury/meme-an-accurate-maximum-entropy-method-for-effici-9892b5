@@ -1,5 +1,8 @@
 # MEMe: Maximum-Entropy Log-Determinants for Gaussian-Process Model Selection
 
+**Live dashboard:** [https://meme-an-accurate-maximum-entropy-me.vercel.app](https://meme-an-accurate-maximum-entropy-me.vercel.app) - the full interactive dashboard (all tabs, live predictions) running in your browser; nothing to install. The first visit takes about a minute to load.
+
+
 This project re-implements **MEMe** (Granziol et al., 2019). MEMe estimates `log det(A)` of a large
 matrix from the *maximum-entropy spectral density* that matches a set of stochastic Chebyshev
 moments, using only matrix-vector products. We benchmark it against the stochastic Chebyshev
