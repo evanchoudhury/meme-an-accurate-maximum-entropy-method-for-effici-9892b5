@@ -166,6 +166,8 @@ if M is None:
              "(it writes artifacts/metrics.json, the CSV files, plots and the model). "
              "The Research tab below still works.")
 
+import ui_rings  # dashboard-rings: headline results as ring gauges
+ui_rings.hero()
 tabs = st.tabs(["Overview", "Data", "Model", "Results", "Try it", "Research"])
 
 # ================================================================== OVERVIEW
