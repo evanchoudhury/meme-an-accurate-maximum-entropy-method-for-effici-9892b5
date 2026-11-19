@@ -25,6 +25,9 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 st.set_page_config(page_title="MEMe - Maximum Entropy log-determinants", layout="wide")
+# dashboard-theme (agent/dashboard_theme.py): glass look, see .streamlit/theme.css
+_css = __import__('pathlib').Path(__file__).with_name('.streamlit') / 'theme.css'
+if _css.is_file(): st.markdown('<style>' + _css.read_text(encoding='utf-8') + '</style>', unsafe_allow_html=True)
 
 FEATURES = ["MedInc", "HouseAge", "AveRooms", "AveBedrms",
             "Population", "AveOccup", "Latitude", "Longitude"]
